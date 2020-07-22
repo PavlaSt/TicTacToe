@@ -14,11 +14,11 @@ public class Main {
         field[2] = new String[]{"|","_", "_", "_", "|"};
         tempArray = new String[]{"_", "_", "_", "_", "_", "_", "_", "_", "_",};
     }
-    void takeInput() {
+   /* void takeInput() {
         System.out.println("Enter cells: ");
         String input = scanner.nextLine();
         tempArray = input.split("");
-    }
+    }*/
     void transformArray() {
         for (int i = 0; i < 3; i++) {
             field[0][i + 1] = tempArray[i];
